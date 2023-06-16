@@ -1,0 +1,22 @@
+.tipos {
+    display: flex;
+    gap: 10px;
+}
+
+.tipos span{
+    background-color: #6f6f6f;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+button {
+    border-style: none;
+    background-color: #333;
+    color: #999;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+

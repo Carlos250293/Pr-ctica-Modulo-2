@@ -1,0 +1,6 @@
+<input placeholder="Nuevo producto" type="text" [(ngModel)]="nuevoProducto">
+<button class="btn-añadir" [disabled]="!nuevoProducto" (click)="incluirProducto()">Añadir</button>
+<button class="btn-borrar" [disabled]="!productos.length" (click)="vaciarLista()">Borrar</button>
+<ul>
+    <li *ngFor="let producto of productos let i = index"><span>{{producto}}</span><button class="btn-eliminar" (click)="borrarProducto(i)">Eliminar</button> </li>
+</ul>

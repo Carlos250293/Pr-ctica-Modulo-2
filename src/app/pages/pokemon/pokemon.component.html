@@ -1,0 +1,7 @@
+<!-- para evitar errores, renderizar solo si hay pokemon -->
+<div *ngIf="pokemon">
+    <app-pokemon-card [pokemon] = "pokemon"></app-pokemon-card>
+    <button (click)="anteriorPokemon()" class="btn btn-primary">Anterior</button>
+    <button (click)="pokemonAleatorio()" class="btn">Aleatorio</button>
+    <button (click)="siguientePokemon()" class="btn btn-primary">Siguiente</button>
+</div>

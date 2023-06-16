@@ -1,0 +1,28 @@
+a:hover {
+    color: #333;
+}
+
+a {
+    color: #b800a2;
+}
+
+.prev-page-btn {
+    border-style: none;
+    background-color: #333;
+    color: #999;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.next-page-btn {
+    border-style: none;
+    background-color: #333;
+    color: #999;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}

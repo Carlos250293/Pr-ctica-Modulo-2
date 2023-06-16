@@ -1,0 +1,14 @@
+.text-red{
+    color: red;
+}
+
+.text-green{
+    color: green;
+}
+
+button {
+border-style: none;
+padding: 7px;
+margin-right: 5px;
+background-color: #999999;
+}

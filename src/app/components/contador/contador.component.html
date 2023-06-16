@@ -1,0 +1,5 @@
+<h2 [ngClass]="{'text-green': contador>0, 'text-red': contador<0}">Contador{{contador}}</h2>
+<p *ngIf="contador>0">El contador es positivo</p>
+<p *ngIf="contador<0">El contador es negativo</p>
+<button (click)="aumentarContador()">Aumentar</button>
+<button (click)="reducirContador()">Reducir</button>

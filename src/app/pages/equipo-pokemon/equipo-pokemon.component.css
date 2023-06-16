@@ -1,0 +1,6 @@
+.equipo-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    color: #7c006d;
+    gap: 16px;
+}
